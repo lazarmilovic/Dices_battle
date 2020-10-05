@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container {
+  width: 60%;
+  height: 80%;
+  background-color: lightgray;
+  border: 2px solid;
+  border-color: firebrick;
+  display: flex; }
+
+.player {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: firebrick;
+  text-shadow: 2px 2px white; }
+  .player h3 {
+    visibility: hidden; }
+  .player .player_health {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly; }
+    .player .player_health .player_health_background {
+      width: 50px;
+      height: 100px;
+      background-color: white;
+      border: 1px solid;
+      border-color: black;
+      position: relative; }
+      .player .player_health .player_health_background .player_health_background_green {
+        width: 100%;
+        height: 100%;
+        background-color: forestgreen;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
+
+.active {
+  background-color: lightblue; }
+  .active h3 {
+    visibility: visible; }
+
+.dices {
+  height: 100%;
+  width: 20%;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-color: firebrick;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative; }
+  .dices button {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: darkolivegreen;
+    border: 2px solid;
+    border-color: firebrick;
+    border-radius: 20px; }
+  .dices button:hover {
+    background-color: firebrick; }
+  .dices .dices_img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; }
+    .dices .dices_img img {
+      width: 50px;
+      height: 50px; }
+  .dices .dices_start {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }

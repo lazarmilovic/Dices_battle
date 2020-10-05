@@ -1,0 +1,13 @@
+@mixin btn {
+    width:100px;
+    height: 50px;
+    color: white;
+    background-color:darkolivegreen;
+    border: 2px solid;
+    border-color: firebrick;
+    border-radius: 20px;
+}
+
+@mixin btn-hover {
+    background-color: firebrick;
+}

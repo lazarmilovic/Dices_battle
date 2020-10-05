@@ -1,0 +1,40 @@
+.dices{
+    height: 100%;
+    width: 20%;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: firebrick;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+
+    button{
+        @include btn;
+    }
+
+    button:hover{
+        @include btn-hover;
+    }
+    .dices_img{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .dices_start{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

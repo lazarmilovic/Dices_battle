@@ -1,0 +1,48 @@
+.player{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: firebrick;
+    text-shadow: 2px 2px white;
+
+    h3{ 
+        visibility: hidden;
+    }
+
+    .player_health{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: space-evenly;
+
+        .player_health_background{
+            width: 50px;
+            height: 100px;
+            background-color:white;
+            border: 1px solid;
+            border-color: black;
+            position: relative;
+
+            .player_health_background_green{
+                width: 100%;
+                height: 100%;
+                background-color: forestgreen;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+        }
+        
+    }
+}
+
+.active {
+    background-color: lightblue;
+
+    h3{
+        visibility: visible;
+    }
+}

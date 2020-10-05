@@ -1,0 +1,19 @@
+html, body {
+
+    height: 100%;
+    width: 100%;  
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 60%;
+    height: 80%;
+    background-color:lightgray;
+    border: 2px solid;
+    border-color: firebrick;
+    display: flex;
+}
